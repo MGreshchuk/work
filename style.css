@@ -1,0 +1,342 @@
+body {
+    font-size: 14px;
+}
+
+.navbar {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #2c3e50;
+}
+
+.navbar-brand {
+    color:  #fff;
+}
+
+.navbar-brand:hover, .navbar-brand:focus, .navbar-brand:active {
+    color: #1abc9c;
+}
+
+.navbar-collapse {
+    justify-content: end;
+    background-color: #2c3e50;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 8px 16px;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+    color: #1abc9c;
+    background-color: #2c3e50;
+}
+
+.navbar-toggler {
+    background-color: #1abc9c;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 12px;
+}
+
+.toggler-name {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.hero-section {
+    background-color: #1abc9c;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.bootstrap-heading {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.fa-star-image {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.fa-star {
+    height: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 12px auto;
+}
+
+.fa-star-2 {
+    height: 32px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 12px;
+}
+
+.heading-words {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.bootstrap-heading-2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #2c3e50;
+    text-transform: uppercase;
+    margin: 12px;
+}
+
+.row-1 {
+    margin-top: 30px;
+}    
+
+.row-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    max-width: 100%;
+    position: relative;
+}
+
+.hover-block {
+    display: none;
+}
+
+.hover-block svg {
+    width: 63px;
+    height: 63px;
+}
+
+.hover-block svg path {
+    fill: rgb(255, 255, 255);
+}
+
+.row-images:hover .hover-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.9);
+    border-radius: 8px;
+}
+
+.portfolio-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.hero-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.hero-image {
+    display: inline-block;
+    max-width: 210px;
+    max-height: 210px;
+}
+
+.about-section {
+    background-color: #1abc9c;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    text-align: center;
+}
+
+.about-heading {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.about-p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.download-button {
+    margin: 0px auto;
+    background-color: #1abc9c;
+    border-color: #fff;
+    color: #fff;
+    padding: 16px 28px;
+}
+
+.download-button:hover, .download-button:focus, .download-button:active {
+    background-color: #fff;
+    color: black;
+}
+
+.fa-download {
+    padding-right: 8px;
+}
+
+.contact-section {
+    background-color: #fff;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+.form-group {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.form-control {
+    border: 0;
+    padding: 6px 0px;
+}
+
+.send-button {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 16px 28px;
+}
+
+.send-button:hover, .send-button:focus, .send-button:active {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
+}
+
+footer {
+    background-color: #2c3e50;
+    padding: 72px 0px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #1f242b;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 24px 0px;
+}
+
+.location-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.location-p {
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.location-p-2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.around-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.about-freelancer-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.about-freelancer-p-1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.about-freelancer-p-2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.about-link {
+    color: #1abc9c;
+}
+
+.about-link:hover, .about-link:focus, .nav-link:active {
+    color: #1abc9c;
+}
+
+.social-items {
+    text-align: center;
+}
+
+.social-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    padding: 6px 12px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.social-icon:not(:last-child) {
+    margin-right: 8px;
+  }
+
+.social-icon svg {
+    height: 24px;
+    width: 24px;
+}
+
+.social-icon svg path {
+    fill: #fff;
+}
+
+.social-icon:hover, .social-icon:focus, .social-icon:active {
+    background-color: #fff;
+}
+
+.social-icon:hover svg path, .social-icon:focus svg path, .social-icon:active svg path {
+    fill: black;
+}
+
+@media (max-width: 991px) {
+    .about-freelancer-heading {
+        margin-top: 16px;
+    }
+}
